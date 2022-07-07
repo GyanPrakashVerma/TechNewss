@@ -1,0 +1,13 @@
+git config --user.name Gyan Prakash Verma
+git config --user.email gyanverma79470@gmail.com
+1.touch .gitignore for create unupload folder.
+2.git init 
+3.git add . for staging area
+4.git commit -m "Initial commit"
+5.git status  just for see
+6.ssh-keygen -t ed25519 -C "gyanverma79470@gmail.com" 
+tail <path to id_rsa.pub>
+generate key paste into your github account
+git remote add origin <paste ssh key url>
+git push origin master
+
